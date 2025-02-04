@@ -1,13 +1,15 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to Xiaotong’s Homepage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Xiaotong Sun is an assistant professor in the Intelligent Transportation Thrust (Guangzhou Campus) and an affiliated assistant professor in the Civil and Environmental Engineering Department at the Hong Kong University of Science and Technology. Before joining HKUST, she was a postdoc research fellow at the University of Michigan, Ann Arbor. She received her Ph.D. in Civil Engineering from the University of Michigan at July 2020.
+
+The transportation systems are undergoing an evolution with the introduction of connected autonomous vehicle technology and shared mobility. Using mathematical optimization and economics (particularly game theory and mechanism design), Xiaotong’s research interests lie in policy, planning, management, and control strategies induced by these emerging technologies to make more efficient and sustainable transportation systems.
 
 A data-driven personal website
 ======
