@@ -1,7 +1,7 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# 主页修改手册
+**本手册的目的是便于直接在github仓库中对老师的个人主页进行修改，确保任何人使用手册都能够快捷完成主页更新任务**
 
-![Academic Pages template example](images/homepage.png "Academic Pages template example")
+![老师的照片](images/Xiaotong_Portrait_2019-683x1024.png)
 
 # Getting Started
 
