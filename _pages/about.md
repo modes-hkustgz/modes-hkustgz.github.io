@@ -15,7 +15,7 @@ The transportation systems are undergoing an evolution with the introduction of 
 
 Research Highlights
 ======
-·Sun, X., & Yin, Y. (2021). Decentralized game-theoretical approaches for behaviorally-stable and efficient vehicle platooning. Transportation Research Part B: Methodological, 153, 45-69. ![1](images/Presentationall.gif)
+·Sun, X., & Yin, Y. (2021). Decentralized game-theoretical approaches for behaviorally-stable and efficient vehicle platooning. Transportation Research Part B: Methodological, 153, 45-69. ![1](../images/Presentationall.gif)
 
 Getting started
 ======
