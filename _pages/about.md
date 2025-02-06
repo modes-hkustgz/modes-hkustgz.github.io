@@ -24,4 +24,4 @@ Research Highlights
 
 For more info
 ------
-Check more [here][https://academicpages.github.io/markdown/](https://xiaotongsun.com/index.php/research/) if you are interested in my research.
+Check more [here](https://xiaotongsun.com/index.php/research/) if you are interested in my research.
