@@ -15,11 +15,13 @@ The transportation systems are undergoing an evolution with the introduction of 
 
 Research Highlights
 ======
-·Sun, X., & Yin, Y. (2021). Decentralized game-theoretical approaches for behaviorally-stable and efficient vehicle platooning. Transportation Research Part B: Methodological, 153, 45-69. ![1](../images/Presentationall.gif)
-·Sun, X., & Yin, Y. (2021). An auction mechanism for platoon leader determination in single-brand cooperative vehicle platooning. Economics of Transportation, 28, 100233. ![2](../images/auctions.gif)
-·Sun, X., Wu, H., Abdolmaleki, M., Yin, Y., & Zou, B. (2021). Investigating the Potential of Truck Platooning for Energy Savings: Empirical Study of the US National Highway Freight Network. Transportation Research Record, 03611981211031231. ![3](../images/USTruckNet.gif)
+·Sun, X., & Yin, Y. (2021). Decentralized game-theoretical approaches for behaviorally-stable and efficient vehicle platooning. Transportation Research Part B: Methodological, 153, 45-69. ![1](../images/Presentationall.gif)<br>
+
+·Sun, X., & Yin, Y. (2021). An auction mechanism for platoon leader determination in single-brand cooperative vehicle platooning. Economics of Transportation, 28, 100233. ![2](../images/auctions.gif)<br>
+
+·Sun, X., Wu, H., Abdolmaleki, M., Yin, Y., & Zou, B. (2021). Investigating the Potential of Truck Platooning for Energy Savings: Empirical Study of the US National Highway Freight Network. Transportation Research Record, 03611981211031231. ![3](../images/USTruckNet.gif)<br>
 
 
 For more info
 ------
-Check more [here]([https://academicpages.github.io/markdown/](https://xiaotongsun.com/index.php/research/)) if you are interested in my research.
+Check more [here][https://academicpages.github.io/markdown/](https://xiaotongsun.com/index.php/research/) if you are interested in my research.
