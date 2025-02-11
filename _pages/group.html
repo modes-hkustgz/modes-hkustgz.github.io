@@ -1,0 +1,12 @@
+---
+layout: archive
+title: "Group Members"
+permalink: /group/
+author_profile: true
+---
+
+<p>Welcome to my research group page! Here are the members of the team:</p>
+
+{% for post in site.group %}
+  {% include archive-single-group-member.html %}
+{% endfor %}
