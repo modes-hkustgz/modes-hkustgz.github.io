@@ -1,0 +1,20 @@
+---
+layout: archive
+title: "Group Members"
+permalink: /group/
+author_profile: true
+---
+
+<p>Welcome to my research group page! Here are the members of the team:</p>
+
+{% for post in site.group %}
+  <div class="group-member">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="group-member-bio">
+      <p><strong>Role:</strong> {{ post.role }}</p>
+      <p><strong>Research Interests:</strong> {{ post.research_interests }}</p>
+      <p><strong>Bio:</strong> {{ post.bio }}</p>
+      <img src="{{ post.photo }}" alt="Photo of {{ post.title }}">
+    </div>
+  </div>
+{% endfor %}
