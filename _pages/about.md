@@ -2,9 +2,7 @@
 permalink: /
 title: "Welcome to Xiaotong’s Homepage"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+
 ---
 
 Xiaotong Sun is an assistant professor in the Intelligent Transportation Thrust (Guangzhou Campus) and an affiliated assistant professor in the Civil and Environmental Engineering Department at the Hong Kong University of Science and Technology. Before joining HKUST, she was a postdoc research fellow at the University of Michigan, Ann Arbor. She received her Ph.D. in Civil Engineering from the University of Michigan at July 2020.
