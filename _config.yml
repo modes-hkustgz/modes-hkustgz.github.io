@@ -22,14 +22,14 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "Xiaotong_Portrait_2019-683x1024.png"
+  name             : "Xiaotong Sun"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Xiaotong Sun is an assistant professor in the Intelligent Transportation Thrust (Guangzhou Campus)"
+  location         : "Rm 513 W1, HKUST(GZ), Nansha, Guangzhou"
+  employer         : "HKUST(GZ)"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : " xtsun@ust.hk" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
