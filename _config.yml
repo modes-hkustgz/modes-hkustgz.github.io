@@ -290,10 +290,9 @@ defaults:
       path: ""
       type: group
     values:
-      layout: single  
+      layout: group   
       author_profile: true
       share: true
-      comments: true
 
 
 # Sass/SCSS
