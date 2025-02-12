@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1>My Research Group</h1>
+<p>Welcome to my group page! Below are the members of the team:</p>
+
+{% for post in site.group %}
+  <div class="group-member">
+    <h2>{{ post.title }}</h2>
+    <div class="content">{{ content }}</div>
+  </div>
+{% endfor %}
