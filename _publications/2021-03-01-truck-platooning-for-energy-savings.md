@@ -1,7 +1,7 @@
 ---
 title: "Investigating the Potential of Truck Platooning for Energy Savings: Empirical Study of the US National Highway Freight Network"
 collection: publications
-category: journal papers
+category: manuscripts
 permalink: /publication/2021-03-01-truck-platooning-for-energy-savings
 excerpt: 'This paper investigates the potential of truck platooning for energy savings in the US national highway freight network.'
 date: 2021-03-01
