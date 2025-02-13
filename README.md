@@ -3,57 +3,104 @@
 
 ![老师的照片](images/Xiaotong_Portrait_2019-683x1024.png)
 
-# Getting Started
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+## 项目结构
 
-See more info at https://academicpages.github.io/
+这个项目是一个展示研究组信息和科研成果的个人网站，主要分为以下几个部分：
 
-## Running locally
+- **`group`**：展示研究组成员信息，包括他们的个人简介、研究兴趣和照片等。
+- **`publications`**：展示研究组成员的科研成果，包括论文、会议、报告等内容。
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+### 项目目录结构
+/docs ├── about.md # 个人介绍页面 ├── group.md # 研究组概览页面 ├── publications.md # 论文概览页面 /_data └── navigation.yml # 导航栏配置 /_group ├── haoyumo.md # 组员 1 的详细信息 └── manlianpan.md # 组员 2 的详细信息 /_publications ├── 2023-03-01-paper-title-number-1.md # 论文 1 的详细信息 └── 2023-03-01-paper-title-number-2.md # 论文 2 的详细信息 /_layouts ├── single.html # 组员详细页面布局 └── archive.html # 论文列表页面布局 /_includes ├── archive-single.html # 论文列表项显示模板 └── archive-single-group-member.html # 组员列表项显示模板 /_config.yml # 配置文件，包含站点信息和布局设置
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+## 跳转逻辑
 
-## Using Docker
+项目的跳转主要是通过导航栏来实现，`_data/navigation.yml` 文件定义了顶栏的跳转逻辑。每个条目都指向一个具体的页面或集合，例如：
 
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
+- **Group**：指向 `/group/`，展示研究组成员的汇总。
+- **Publications**：指向 `/publications/`，展示所有论文的列表。
 
-You can build and execute the container by running the following command in the repository:
+你可以通过更新 `navigation.yml` 来改变页面的显示顺序或添加新的页面。
 
-```bash
-docker compose up
+## 关键改动
+
+在部署过程中，我们做了以下几项关键改动：
+
+1. **修改 `baseurl`**：为了确保站点链接正确，我们将 `_config.yml` 中的 `baseurl` 设置为空字符串 (`baseurl: ""`)，这样站点将部署在根目录。
+2. **优化了 `group` 页面布局**：我们使用了现有的 `archive.html` 布局来展示组员信息，每个组员信息放在一个独立的 Markdown 文件中，点击后可以查看详细信息。
+3. **自定义了 `publications` 页面布局**：借鉴了现有的论文列表展示方式，使用 `archive.html` 布局展示论文，点击后进入论文的详细页面。
+
+## 如何添加新的论文或组员
+
+### 添加新的论文
+
+1. 在 `_publications` 文件夹中创建一个新的 Markdown 文件，命名格式为：`YYYY-MM-DD-论文标题.md`。
+2. 在文件中添加以下内容：
+
 ```
+---
+title: "论文标题"
+collection: publications
+category: 论文类型（如：manuscripts, journal papers, conference）
+permalink: /publication/YYYY-MM-DD-论文标题
+excerpt: "论文摘要"
+date: YYYY-MM-DD
+venue: "期刊或会议名称"
+slidesurl: "幻灯片链接（如果有）"
+paperurl: "论文链接（如果有）"
+citation: "论文引用信息"
+---
+```
+3. 你可以为每篇论文提供 slidesurl 和 paperurl，但这些字段可以根据需要省略。
 
-You should now be able to access the website from `localhost:4000`.
+### 添加新的组员
+1. 在 _group 文件夹中创建一个新的 Markdown 文件，命名格式为：组员名字.md。
+2. 在文件中添加以下内容：
+```
+---
+layout: single
+title: "组员名字"
+author_profile: true
+collection: group
+role: "Ph.D. Student"
+research_interests: "研究兴趣"
+bio: "简短的个人简介"
+photo: "/images/组员照片.jpg"
+---
+```
+3. 在 group.md 中，你可以添加组员的概览，展示每个组员的角色和研究兴趣等信息。
 
-# Maintenance
+### 注意事项
+确保每篇论文和组员的 permalink 唯一，以避免 URL 冲突。
+组员和论文文件的 title 和 permalink 中不要使用特殊字符，例如空格、逗号等。
+对于每个新添加的论文或组员，记得在相关页面（如 group.md 和 publications.md）中进行更新。
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+## 常见错误及解决方案
+1. Page Not Found 错误
+原因：可能是 permalink 配置错误或忘记提交文件。
+解决方案：
+确保每个页面的 permalink 是唯一的，并且文件名称与 permalink 对应。
+检查 group.md 和 publications.md 文件中是否已包含最新的组员和论文链接。
+提交并推送更改到 GitHub，确保 GitHub Pages 会重新构建站点。
+2. 顶栏跳转到 academic page 默认页面
+原因：navigation.yml 配置错误，导致跳转逻辑没有正确更新。
+解决方案：
+确保 _data/navigation.yml 文件中的所有链接都指向正确的页面（如 /group/ 和 /publications/）。
+确保 baseurl 配置正确，如果站点在根目录，baseurl 应为空字符串 (baseurl: "")。
+强制重新构建 GitHub Pages，通过修改 GitHub Pages 设置来触发站点的重新部署。
+3. 页面布局没有正确显示
+原因：可能是因为使用了不正确的布局或文件路径。
+解决方案：
+确保在页面头部的 layout 字段设置正确。比如，组员页面使用 single 布局，论文页面使用 archive 布局。
+检查是否在 _layouts 文件夹中创建了适当的布局文件，并确保它们没有语法错误。
+4. 图片无法显示
+原因：图片路径错误或图片未正确上传。
+解决方案：
+确保图片文件被放置在 images 文件夹中，并且路径引用正确。
+确保图片文件名没有空格或特殊字符。
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
 
 ## Bugfixes and enhancements
 
