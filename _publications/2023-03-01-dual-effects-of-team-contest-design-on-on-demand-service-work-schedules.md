@@ -1,7 +1,7 @@
 ---
 title: "The dual effects of team contest design on on-demand service work schedules"
 collection: publications
-category: journal papers
+category: manuscripts
 permalink: /publication/2023-03-01-dual-effects-of-team-contest-design-on-on-demand-service-work-schedules
 excerpt: 'This paper discusses the dual effects of team contest design on on-demand service work schedules.'
 date: 2023-03-01
