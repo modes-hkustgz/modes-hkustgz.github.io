@@ -1,7 +1,7 @@
 ---
 title: "Behaviorally stable vehicle platooning for energy savings"
 collection: publications
-category: journal papers
+category: manuscripts
 permalink: /publication/2019-03-01-behaviorally-stable-vehicle-platooning
 excerpt: 'This paper presents a study on behaviorally stable vehicle platooning for energy savings.'
 date: 2019-03-01
