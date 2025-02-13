@@ -18,35 +18,50 @@
 ```
 根目录
 ├── /docs
-│   ├── about.md              # 个人介绍页面
-│   ├── group.md              # 研究组概览页面
-│   ├── publications.md       # 论文概览页面
-│   └── updates.md            # 更新概览页面
+│   ├── about.md                 # 个人介绍主页面
+│   ├── group.md                 # 研究组概览入口
+│   ├── publications.md          # 论文总览索引
+│   ├── updates.md               # 新闻动态聚合
+│   ├── experience.md            # 个人履历时间轴
+│   └── resources.md             # 学术资源导航
 │
 ├── /_data
-│   └── navigation.yml        # 导航栏配置
+│   └── navigation.yml           # 全局导航栏配置
 │
 ├── /_group
-│   ├── haoyumo.md            # 组员 1 的详细信息
-│   └── manlianpan.md         # 组员 2 的详细信息
+│   ├── haoyumo.md               # 组员 Haoyu Mo 档案
+│   └── manlianpan.md            # 组员 Manlian Pan 档案
 │
 ├── /_publications
-│   ├── 2023-03-01-paper-title-number-1.md  # 论文 1 的详细信息
-│   └── 2023-03-01-paper-title-number-2.md  # 论文 2 的详细信息
+│   ├── 2023-03-01-paper-title-number-1.md  # 论文《Paper Title 1》
+│   └── 2023-03-01-paper-title-number-2.md  # 论文《Paper Title 2》
 │
 ├── /_updates
-│   ├── 2023-09-26-xiaotong-presentation-at-sysu.md  # 更新文件 1
-│   └── 2023-06-02-hangyu-thesis-defense.md          # 更新文件 2
+│   ├── 2023-09-26-xiaotong-presentation-at-sysu.md  # "Xiaotong 中大演讲"动态
+│   └── 2023-06-02-hangyu-thesis-defense.md          # "Hangyu 论文答辩"动态
+│
+├── /_experience
+│   ├── 2020-07-01-phd-next-gen-transportation.md      # 博士经历：新一代交通系统
+│   ├── 2016-08-01-msc-civil-coastal-engineering.md    # 硕士经历：海岸工程
+│   └── 2021-06-01-postdoctoral-research-fellow.md     # 博士后研究员经历
+│
+├── /_resources
+│   ├── lab-for-innovative-mobility-systems.md         # 创新交通系统实验室指南
+│   ├── shoam-leyton-brown-multiagent-systems.md       # 《多智能体系统》参考书
+│   ├── roughgarden-twenty-lectures-algorithmic-game-theory.md  # 算法博弈论讲义
+│   ├── borgers-introduction-theory-mechanism-design.md         # 机制设计导论
+│   └── kahneman-thinking-fast-slow.md                 # 《思考，快与慢》精读笔记
 │
 ├── /_layouts
-│   ├── single.html           # 组员详细页面布局
-│   └── archive.html          # 更新列表页面布局
+│   ├── single.html                   # 单页面布局（组员/资源详情）
+│   ├── archive.html                  # 聚合列表布局（更新/论文）
+│   └── archive-single-resource.html  # 资源卡片定制模板
 │
 ├── /_includes
-│   ├── archive-single.html           # 论文列表项显示模板
-│   └── archive-single-update.html    # 更新列表项显示模板
+│   ├── archive-single.html           # 论文列表项模板
+│   └── archive-single-update.html    # 动态列表项模板
 │
-└── _config.yml               # 配置文件（站点信息和布局设置）
+└── _config.yml                       # 全局配置文件（主题/插件/元数据）
 ```
 ## 跳转逻辑
 
