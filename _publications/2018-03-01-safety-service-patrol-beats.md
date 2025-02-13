@@ -1,7 +1,7 @@
 ---
 title: "Methods for the design of safety service patrol beats: the Florida Road Ranger case study"
 collection: publications
-category: journal papers
+category: manuscripts
 permalink: /publication/2018-03-01-safety-service-patrol-beats
 excerpt: 'This paper discusses methods for designing safety service patrol beats in Florida.'
 date: 2018-03-01
