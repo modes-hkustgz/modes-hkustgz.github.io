@@ -1,7 +1,7 @@
 ---
 title: "Integrated Planning of Static and Dynamic Charging Infrastructure to Support Electric Vehicles for Inter-city Trips"
 collection: publications
-category: journal papers
+category: manuscripts
 permalink: /publication/2020-03-01-planning-of-charging-infrastructure
 excerpt: 'This paper discusses integrated planning of static and dynamic charging infrastructure for electric vehicles.'
 date: 2020-03-01
