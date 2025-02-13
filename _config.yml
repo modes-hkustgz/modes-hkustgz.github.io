@@ -231,6 +231,12 @@ collections:
   updates:
     output: true
     permalink: /:collection/:path/
+  experience:
+    output: true
+    permalink: /:collection/:path/
+  resources:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
