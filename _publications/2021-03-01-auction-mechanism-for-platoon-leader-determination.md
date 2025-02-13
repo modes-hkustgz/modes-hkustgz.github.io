@@ -1,7 +1,7 @@
 ---
 title: "An auction mechanism for platoon leader determination in single-brand cooperative vehicle platooning"
 collection: publications
-category: journal papers
+category: manuscripts
 permalink: /publication/2021-03-01-auction-mechanism-for-platoon-leader-determination
 excerpt: 'This paper proposes an auction mechanism for platoon leader determination in vehicle platooning.'
 date: 2021-03-01
