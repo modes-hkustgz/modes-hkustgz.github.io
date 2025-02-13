@@ -10,17 +10,49 @@
 
 - **`group`**：展示研究组成员信息，包括他们的个人简介、研究兴趣和照片等。
 - **`publications`**：展示研究组成员的科研成果，包括论文、会议、报告等内容。
+- **`updates`**：展示个人的近况更新，记录所有重要的学术活动、演讲、奖项等。
 
 ### 项目目录结构
-/docs ├── about.md # 个人介绍页面 ├── group.md # 研究组概览页面 ├── publications.md # 论文概览页面 /_data └── navigation.yml # 导航栏配置 /_group ├── haoyumo.md # 组员 1 的详细信息 └── manlianpan.md # 组员 2 的详细信息 /_publications ├── 2023-03-01-paper-title-number-1.md # 论文 1 的详细信息 └── 2023-03-01-paper-title-number-2.md # 论文 2 的详细信息 /_layouts ├── single.html # 组员详细页面布局 └── archive.html # 论文列表页面布局 /_includes ├── archive-single.html # 论文列表项显示模板 └── archive-single-group-member.html # 组员列表项显示模板 /_config.yml # 配置文件，包含站点信息和布局设置
-
-
+```
+根目录
+├── /docs
+│   ├── about.md              # 个人介绍页面
+│   ├── group.md              # 研究组概览页面
+│   ├── publications.md       # 论文概览页面
+│   └── updates.md            # 更新概览页面
+│
+├── /_data
+│   └── navigation.yml        # 导航栏配置
+│
+├── /_group
+│   ├── haoyumo.md            # 组员 1 的详细信息
+│   └── manlianpan.md         # 组员 2 的详细信息
+│
+├── /_publications
+│   ├── 2023-03-01-paper-title-number-1.md  # 论文 1 的详细信息
+│   └── 2023-03-01-paper-title-number-2.md  # 论文 2 的详细信息
+│
+├── /_updates
+│   ├── 2023-09-26-xiaotong-presentation-at-sysu.md  # 更新文件 1
+│   └── 2023-06-02-hangyu-thesis-defense.md          # 更新文件 2
+│
+├── /_layouts
+│   ├── single.html           # 组员详细页面布局
+│   └── archive.html          # 更新列表页面布局
+│
+├── /_includes
+│   ├── archive-single.html           # 论文列表项显示模板
+│   └── archive-single-update.html    # 更新列表项显示模板
+│
+└── _config.yml               # 配置文件（站点信息和布局设置）
+```
 ## 跳转逻辑
 
 项目的跳转主要是通过导航栏来实现，`_data/navigation.yml` 文件定义了顶栏的跳转逻辑。每个条目都指向一个具体的页面或集合，例如：
 
 - **Group**：指向 `/group/`，展示研究组成员的汇总。
 - **Publications**：指向 `/publications/`，展示所有论文的列表。
+- **Updates**：指向 `/updates/`，展示所有最新的个人更新。
 
 你可以通过更新 `navigation.yml` 来改变页面的显示顺序或添加新的页面。
 
@@ -31,6 +63,8 @@
 1. **修改 `baseurl`**：为了确保站点链接正确，我们将 `_config.yml` 中的 `baseurl` 设置为空字符串 (`baseurl: ""`)，这样站点将部署在根目录。
 2. **优化了 `group` 页面布局**：我们使用了现有的 `archive.html` 布局来展示组员信息，每个组员信息放在一个独立的 Markdown 文件中，点击后可以查看详细信息。
 3. **自定义了 `publications` 页面布局**：借鉴了现有的论文列表展示方式，使用 `archive.html` 布局展示论文，点击后进入论文的详细页面。
+4. **新增 `updates` 页面**：我们新增了一个 `updates` 页面，用来展示个人的学术活动、奖项和讲座等更新。
+
 
 ## 如何添加新的论文或组员
 
@@ -67,10 +101,26 @@ collection: group
 role: "Ph.D. Student"
 research_interests: "研究兴趣"
 bio: "简短的个人简介"
-photo: "/images/组员照片.jpg"
+photo: "../images/组员照片.jpg"
 ---
 ```
 3. 在 group.md 中，你可以添加组员的概览，展示每个组员的角色和研究兴趣等信息。
+
+### 添加新的更新
+1. 在 _updates 文件夹中创建一个新的 Markdown 文件，命名格式为：YYYY-MM-DD-更新标题.md。
+2. 在文件中添加以下内容：
+```
+---
+title: "更新标题"
+collection: updates
+date: YYYY-MM-DD
+permalink: /updates/YYYY-MM-DD-更新标题
+image: "../images/更新图片.png"  # 如有相关图片
+---
+更新内容描述，具体说明事件的细节。
+![Image](../images/更新图片.png)  # 如果有图片，添加图片
+
+``` 
 
 ### 注意事项
 确保每篇论文和组员的 permalink 唯一，以避免 URL 冲突。
