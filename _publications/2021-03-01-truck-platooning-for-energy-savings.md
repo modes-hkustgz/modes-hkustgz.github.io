@@ -11,3 +11,5 @@ paperurl: 'http://academicpages.github.io/files/paper7.pdf'
 citation: 'Sun, X., Wu, H., Abdolmaleki, M., Yin, Y*., & Zou, B. (2021). "Investigating the Potential of Truck Platooning for Energy Savings: Empirical Study of the US National Highway Freight Network." <i>Transportation Research Record</i>, 03611981211031231. [TRR][PDF(pre-print)]'
 ---
 Sun, X., Wu, H., Abdolmaleki, M., Yin, Y*., & Zou, B. (2021). Investigating the Potential of Truck Platooning for Energy Savings: Empirical Study of the US National Highway Freight Network. Transportation Research Record, 03611981211031231. [TRR][PDF(pre-print)]
+
+![3](../images/USTruckNet.gif)
