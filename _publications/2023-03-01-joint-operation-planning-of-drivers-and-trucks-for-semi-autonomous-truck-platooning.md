@@ -1,7 +1,7 @@
 ---
 title: "Joint operation planning of drivers and trucks for semi-autonomous truck platooning"
 collection: publications
-category: journal papers
+category: manuscripts
 permalink: /publication/2023-03-01-joint-operation-planning-of-drivers-and-trucks-for-semi-autonomous-truck-platooning
 excerpt: 'This paper focuses on joint operation planning for semi-autonomous truck platooning.'
 date: 2023-03-01
