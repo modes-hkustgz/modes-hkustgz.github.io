@@ -1,7 +1,7 @@
 ---
 title: "Comparative study on the capacity of a signalised roundabout"
 collection: publications
-category: journal papers
+category: manuscripts
 permalink: /publication/2016-03-01-capacity-of-signalised-roundabout
 excerpt: 'This paper provides a comparative study on the capacity of signalized roundabouts.'
 date: 2016-03-01
