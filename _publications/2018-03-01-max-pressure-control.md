@@ -1,7 +1,7 @@
 ---
 title: "A simulation study on max pressure control of signalized intersections"
 collection: publications
-category: journal papers
+category: manuscripts
 permalink: /publication/2018-03-01-max-pressure-control
 excerpt: 'This paper presents a simulation study on max pressure control for signalized intersections.'
 date: 2018-03-01
