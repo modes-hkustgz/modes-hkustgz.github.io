@@ -11,3 +11,6 @@ paperurl: 'http://academicpages.github.io/files/paper5.pdf'
 citation: 'Sun, X., & Yin, Y*. (2021). "Decentralized game-theoretical approaches for behaviorally-stable and efficient vehicle platooning." <i>Transportation Research Part B: Methodological</i>, 153, 45-69. [TR-Part B][PDF(pre-print)]'
 ---
 Sun, X., & Yin, Y*. (2021). Decentralized game-theoretical approaches for behaviorally-stable and efficient vehicle platooning. Transportation Research Part B: Methodological, 153, 45-69. [TR-Part B][PDF(pre-print)]
+
+
+![1](../images/Presentationall.gif)
