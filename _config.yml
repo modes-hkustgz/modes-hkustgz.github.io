@@ -13,7 +13,7 @@ title                    : "Xiaotong Sun"
 title_separator          : "-"
 name                     : &name "Xiaotong Sun"
 description              : &description "personal description"
-url                      : https://profsun2024.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://MODES-TR.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
