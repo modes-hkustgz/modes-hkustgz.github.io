@@ -17,8 +17,8 @@
 ### 项目目录结构
 ```
 根目录
-├── /docs
-│   ├── about.md                 # 个人介绍主页面
+├── /modes-hkustgz
+│   ├── _config.yml              # 个人介绍主页面（和设置路径的文件复用了）
 │   ├── group.md                 # 研究组概览入口
 │   ├── publications.md          # 论文总览索引
 │   ├── updates.md               # 新闻动态聚合
