@@ -6,7 +6,7 @@ permalink: /about_pi/pi
 photo: "/images/xiaotong_sun.jpg"  # Optional: Add PI photo path (upload the image if needed)
 ---
 
-# About the Principal Investigator
+# About Me
 
 Dr. Xiaotong Sun (孙晓通) is an Assistant Professor in the Intelligent Transportation Thrust at the Hong Kong University of Science and Technology (Guangzhou Campus), and an affiliated Assistant Professor in the Civil and Environmental Engineering Department at HKUST. Email: xtsun@ust.hk / xtsun@hkust-gz.edu.cn.
 
