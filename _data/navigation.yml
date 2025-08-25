@@ -19,3 +19,6 @@ main:
         
   - title: "Resources"
     url: /resources/
+
+  - title: "About PI"  
+    url: /about_pi/
