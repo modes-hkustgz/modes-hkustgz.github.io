@@ -237,6 +237,9 @@ collections:
   resources:
     output: true
     permalink: /:collection/:path/
+  about_pi:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
