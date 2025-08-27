@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "the Lab of Mobility Optimization and DEcision Science (MODES) at HKUST(GZ)"
+title                    : "Mobility Optimization and DEcision Science (MODES)"
 title_separator          : "-"
 name                     : &name "MODES"
 description              : &description "personal description"
