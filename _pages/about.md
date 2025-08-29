@@ -1,15 +1,13 @@
 ---
 permalink: /
-title: "Welcome to Xiaotong’s Homepage"
+title: "Welcome to the Lab of Mobility Optimization and DEcision Science (MODES) at HKUST(GZ)"
 author_profile: true
 
 ---
 
 ![lab](/images/MODES-3.png)
 
-Xiaotong Sun is an assistant professor in the Intelligent Transportation Thrust (Guangzhou Campus) and an affiliated assistant professor in the Civil and Environmental Engineering Department at the Hong Kong University of Science and Technology. Before joining HKUST, she was a postdoc research fellow at the University of Michigan, Ann Arbor. She received her Ph.D. in Civil Engineering from the University of Michigan at July 2020.
-
-The transportation systems are undergoing an evolution with the introduction of connected autonomous vehicle technology and shared mobility. Using mathematical optimization and economics (particularly game theory and mechanism design), Xiaotong’s research interests lie in policy, planning, management, and control strategies induced by these emerging technologies to make more efficient and sustainable transportation systems. 
+Led by Dr. Xiaotong Sun, the Lab of Mobility Optimization and DEcision Science (MODES) at HKUST (Guangzhou) focuses on the planning, operation, and regulation of multi-modal transportation systems empowered by emerging technologies. Drawing on analytical optimization, game theory, and data-driven approaches, MODES advances research through a dual lens: modeling to understand how complex transportation systems operate, and optimizing to enhance their performance.
 
 
 
