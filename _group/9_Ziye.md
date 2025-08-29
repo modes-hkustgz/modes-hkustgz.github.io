@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Ziye Guo (2024 Fall)"
+title: "Ziye Guo"
 author_profile: true
 collection: group
 role: Research Assistant
@@ -9,7 +9,7 @@ bio: "Ziye graduated from Bejing University of Post and Telecommunications. His 
 photo: "../images/photos/Ziye.png"
 ---
 
-# Ziye Guo (2024 Fall)
+# Ziye Guo
 
 **Role**: Research Assistant 
 **Research Interests**: Federated Learning.  
