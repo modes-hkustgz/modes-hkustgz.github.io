@@ -13,13 +13,16 @@ Led by Dr. Xiaotong Sun, the Lab of Mobility Optimization and DEcision Science (
 
 Research Highlights
 ======
-·Sun, X., & Yin, Y. (2021). Decentralized game-theoretical approaches for behaviorally-stable and efficient vehicle platooning. Transportation Research Part B: Methodological, 153, 45-69. ![1](../images/Presentationall.gif)<br>
+![1](../images/research-highlight.jpg)<br>
 
-·Sun, X., & Yin, Y. (2021). An auction mechanism for platoon leader determination in single-brand cooperative vehicle platooning. Economics of Transportation, 28, 100233. ![2](../images/auctions.gif)<br>
-
-·Sun, X., Wu, H., Abdolmaleki, M., Yin, Y., & Zou, B. (2021). Investigating the Potential of Truck Platooning for Energy Savings: Empirical Study of the US National Highway Freight Network. Transportation Research Record, 03611981211031231. ![3](../images/USTruckNet.gif)<br>
-
+Recently Updates
+======
+1. Advance Notice: Xiaotong will attend ISTDM 2025 in Montréal, Canada, from September 3–5, 2025, and deliver presentations.
+2. Professor Sun, Manlian, Miaowei, Wenjie attended the 16th International Workshop on Computational Transportation Science in Wuhan，Chinese from July 25 to 27, 2025, and made presentations.
+3. Chaoyu attended ITEA in Northwest University, Chicago, America from June 23 to 27, 2025, and made presentations.
+4. Hangyu published an article in Transportation Research Part C on June 22, 2025.
+5. Xinzhu attended Transportation Science and Logistics Conference in Seoul，Korea from May 19 to 21, 2025, and made presentations.
 
 For more info
-------
+======
 Check more [here](https://xiaotongsun.com/index.php/research/) if you are interested in my research.
