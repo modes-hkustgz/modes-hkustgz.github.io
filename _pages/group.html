@@ -8,13 +8,33 @@ author_profile: true
 <p>Welcome to my research group page! Here are the members of the team:</p>
 
 {% for post in site.group %}
-  <div class="group-member">
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <div class="group-member-bio">
-      <p><strong>Role:</strong> {{ post.role }}</p>
-      <p><strong>Research Interests:</strong> {{ post.research_interests }}</p>
-      <p><strong>Bio:</strong> {{ post.bio }}</p>
-      <img src="{{ post.photo }}" alt="Photo of {{ post.title }}">
+  {% if post.status == 'current' %}
+    <!-- 当前成员分区 -->
+    <div class="group-member">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="group-member-bio">
+        <p><strong>Role:</strong> {{ post.role }}</p>
+        <p><strong>Research Interests:</strong> {{ post.research_interests }}</p>
+        <p><strong>Bio:</strong> {{ post.bio }}</p>
+        <img src="{{ post.photo }}" alt="Photo of {{ post.title }}">
+      </div>
     </div>
-  </div>
+  {% endif %}
+{% endfor %}
+
+<h2>Alumni</h2>  <!-- 校友分区标题 -->
+
+{% for post in site.group %}
+  {% if post.status == 'alumni' %}
+    <!-- 校友分区，无照片，添加 first position -->
+    <div class="group-member">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="group-member-bio">
+        <p><strong>Role:</strong> {{ post.role }}</p>
+        <p><strong>Research Interests:</strong> {{ post.research_interests }}</p>
+        <p><strong>Bio:</strong> {{ post.bio }}</p>
+        <p><strong>First Position after Graduation:</strong> {{ post.first_position }}</p>
+      </div>
+    </div>
+  {% endif %}
 {% endfor %}
