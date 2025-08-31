@@ -8,6 +8,7 @@ research_interests: "Generalized nash equilibrium problem in intelligent transpo
 bio: "Chenglin earned his ​Bachelor of Information Management and Information Systems from Northeastern University, followed by a ​Master of Management Science and Engineering from Shenzhen University. His research centers on ​Generalized Nash Equilibrium Problems (GNEPs) in intelligent transportation systems.
 "
 photo: "../images/photos/Chenglin.png"
+status: current
 ---
 
 # Chenglin Zhuang (2024 Fall)
