@@ -123,9 +123,13 @@ role: "Ph.D. Student"
 research_interests: "研究兴趣"
 bio: "简短的个人简介"
 photo: "../images/组员照片.jpg"
+status: current  # 或 'alumni' 用于毕业成员
+first_position: "毕业后第一职位"  # 仅用于校友
 ---
 ```
 3. 在 group.md 中，你可以添加组员的概览，展示每个组员的角色和研究兴趣等信息。
+4. **_pages/group.html 使用 Liquid 循环遍历 site.group 集合。**
+5. **确保所有文件都有 status 字段，否则不会显示在分区中。**
 
 ### 添加新的更新
 1. 在 _updates 文件夹中创建一个新的 Markdown 文件，命名格式为：YYYY-MM-DD-更新标题.md。
