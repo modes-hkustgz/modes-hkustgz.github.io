@@ -7,6 +7,7 @@ role: Mphill Student
 research_interests: "Network flow, Cascading failures"
 bio: "Wenjie obtained a Bachelor's degree in Information Management and Information Systems from Nankai University. Her researcr interests include network flow and cascading failures in transportation."
 photo: "../images/photos/Wenjie.png"
+status: current
 ---
 
 # Wenjie ZHU (2024 Fall)
