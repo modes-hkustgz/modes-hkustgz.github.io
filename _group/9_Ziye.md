@@ -11,10 +11,9 @@ status: current
 #first_position: "Researcher"
 ---
 
-# Ziye Guo
 
 **Role**: Research Assistant 
 **Research Interests**: Federated Learning.  
 **Bio**: Ziye graduated from Bejing University of Post and Telecommunications. His research interst includes federated learning and LLM agents.
 
-#![Ziye Guo](../images/photos/Ziye.png)
+![Ziye Guo](../images/photos/Ziye.png)
