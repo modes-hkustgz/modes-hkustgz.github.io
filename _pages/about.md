@@ -37,7 +37,7 @@ Recently Updates
       <!-- 标题链接 -->
       <h3 style="margin-bottom: 5px; font-size: 1.1em;">
         <!--<a href="{{ update.url | relative_url }}">{{ update.title }}</a>-->
-        <a href="{{ /updates/ | relative_url }}">{{ update.title }}</a>
+        <a href="{{ '/updates/' | relative_url }}">{{ update.title }}</a>
       </h3>
       <!-- 日期 -->
       <p style="color: #666; font-size: 0.85em; margin: 0;">
