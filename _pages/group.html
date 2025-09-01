@@ -5,36 +5,227 @@ permalink: /group/
 author_profile: true
 ---
 
-<p>Welcome to my research group page! Here are the members of the team:</p>
+<style>
+.group-section {
+  margin-bottom: 40px;
+}
 
-{% for post in site.group %}
-  {% if post.status == 'current' %}
-    <!-- 当前成员分区 -->
-    <div class="group-member">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="group-member-bio">
-        <p><strong>Role:</strong> {{ post.role }}</p>
-        <p><strong>Research Interests:</strong> {{ post.research_interests }}</p>
-        <p><strong>Bio:</strong> {{ post.bio }}</p>
-        <img src="{{ post.photo }}" alt="Photo of {{ post.title }}">
+.current-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.member-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.member-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.member-info {
+  margin: 5px 0;
+}
+
+.alumni-section {
+  margin-top: 50px;
+}
+
+.alumni-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.alumni-category {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.alumni-category h3 {
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #333;
+  font-size: 1.1em;
+}
+
+.alumni-member {
+  margin: 15px 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.alumni-member:last-child {
+  border-bottom: none;
+}
+
+.alumni-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.alumni-name a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.alumni-name a:hover {
+  text-decoration: underline;
+}
+
+.graduation-date {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.first-position {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+}
+</style>
+
+<!-- Current Members Section -->
+<h2>Current Members</h2>
+<div class="current-members">
+  {% for member in site.group %}
+    {% if member.status == 'current' %}
+      <div class="member-card">
+        {% if member.photo %}
+          <img src="{{ member.photo }}" alt="Photo of {{ member.title }}">
+        {% endif %}
+        <h3>
+          {% if member.homepage %}
+            <a href="{{ member.homepage }}" target="_blank">{{ member.title }}</a>
+          {% else %}
+            <a href="{{ member.url }}">{{ member.title }}</a>
+          {% endif %}
+        </h3>
+        <div class="member-info">
+          <strong>{{ member.role }}</strong>
+        </div>
+        {% if member.research_interests %}
+          <div class="member-info">
+            <em>{{ member.research_interests }}</em>
+          </div>
+        {% endif %}
+        {% if member.bio %}
+          <div class="member-info">
+            {{ member.bio }}
+          </div>
+        {% endif %}
       </div>
-    </div>
-  {% endif %}
-{% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>
 
-<h2>Alumni</h2>  <!-- 校友分区标题 -->
-
-{% for post in site.group %}
-  {% if post.status == 'alumni' %}
-    <!-- 校友分区，无照片，添加 first position -->
-    <div class="group-member">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <div class="group-member-bio">
-        <p><strong>Role:</strong> {{ post.role }}</p>
-        <!-- <p><strong>Research Interests:</strong> {{ post.research_interests }}</p> -->
-        <p><strong>Bio:</strong> {{ post.bio }}</p>
-        <p><strong>First Position after Graduation:</strong> {{ post.first_position }}</p>
-      </div>
+<!-- Alumni Section -->
+<div class="alumni-section">
+  <h2>Former Students, Postdocs and Scholars</h2>
+  
+  <div class="alumni-categories">
+    
+    <!-- Former PhD Students -->
+    <div class="alumni-category">
+      <h3>Former PhD Students</h3>
+      {% assign phd_alumni = site.group | where: 'status', 'alumni' | where: 'category', 'phd' %}
+      {% for member in phd_alumni %}
+        <div class="alumni-member">
+          <div class="alumni-name">
+            {% if member.homepage %}
+              Dr. <a href="{{ member.homepage }}" target="_blank">{{ member.title }}</a>
+            {% else %}
+              Dr. {{ member.title }}
+            {% endif %}
+            {% if member.graduation_date %}
+              <span class="graduation-date">({{ member.graduation_date }})</span>
+            {% endif %}
+          </div>
+          {% if member.first_position %}
+            <div class="first-position">{{ member.first_position }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
     </div>
-  {% endif %}
-{% endfor %}
+    
+    <!-- Former Master Students -->
+    <div class="alumni-category">
+      <h3>Former Master Students</h3>
+      {% assign master_alumni = site.group | where: 'status', 'alumni' | where: 'category', 'master' %}
+      {% for member in master_alumni %}
+        <div class="alumni-member">
+          <div class="alumni-name">
+            {% if member.homepage %}
+              <a href="{{ member.homepage }}" target="_blank">{{ member.title }}</a>
+            {% else %}
+              {{ member.title }}
+            {% endif %}
+            {% if member.graduation_date %}
+              <span class="graduation-date">({{ member.graduation_date }})</span>
+            {% endif %}
+          </div>
+          {% if member.first_position %}
+            <div class="first-position">{{ member.first_position }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    
+    <!-- Former Postdocs -->
+    <div class="alumni-category">
+      <h3>Former Postdocs</h3>
+      {% assign postdoc_alumni = site.group | where: 'status', 'alumni' | where: 'category', 'postdoc' %}
+      {% for member in postdoc_alumni %}
+        <div class="alumni-member">
+          <div class="alumni-name">
+            {% if member.homepage %}
+              Dr. <a href="{{ member.homepage }}" target="_blank">{{ member.title }}</a>
+            {% else %}
+              Dr. {{ member.title }}
+            {% endif %}
+            {% if member.graduation_date %}
+              <span class="graduation-date">({{ member.graduation_date }})</span>
+            {% endif %}
+          </div>
+          {% if member.first_position %}
+            <div class="first-position">{{ member.first_position }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    
+    <!-- Former Visiting Scholars -->
+    <div class="alumni-category">
+      <h3>Former Visiting Scholars</h3>
+      {% assign scholar_alumni = site.group | where: 'status', 'alumni' | where: 'category', 'visiting_scholar' %}
+      {% for member in scholar_alumni %}
+        <div class="alumni-member">
+          <div class="alumni-name">
+            {% if member.homepage %}
+              <a href="{{ member.homepage }}" target="_blank">{{ member.title }}</a>
+            {% else %}
+              {{ member.title }}
+            {% endif %}
+            {% if member.graduation_date %}
+              <span class="graduation-date">({{ member.graduation_date }})</span>
+            {% endif %}
+          </div>
+          {% if member.first_position %}
+            <div class="first-position">{{ member.first_position }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    
+  </div>
+</div>
