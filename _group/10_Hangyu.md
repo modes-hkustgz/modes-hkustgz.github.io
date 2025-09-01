@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Hangyu Li (2022 Fall)"
+title: "Hangyu Li (Graduated in 2024)"
 author_profile: true
 collection: group
 role: Mphill
