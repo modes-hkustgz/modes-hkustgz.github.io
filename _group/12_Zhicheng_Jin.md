@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Zhicheng JIN"
+title: "Zhicheng Jin"
 author_profile: true
 collection: group
 role: Research Assistant
@@ -12,7 +12,7 @@ category: visiting_scholar
 first_position: PhD at HK PolyU
 ---
 
-# Zhicheng JIN
+# Zhicheng Jin
 
 **Role**: Research Assistant  
 **Bio**: Zhicheng received his Bachelor’s degree in Transportation from Southwest Jiaotong University and his Master’s degree in Transportation Engineering from Tongji University. His research focus on transportation electrification and urban mobility.
