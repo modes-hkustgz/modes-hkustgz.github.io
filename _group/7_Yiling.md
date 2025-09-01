@@ -13,7 +13,7 @@ category: master
 first_position: HKUST(GZ)
 ---
 
-# Yiling Luo (2023 Fall)
+# Yiling Luo (Graduated in 2025)
 
 **Role**: Mphill Student  
 **Research Interests**: Optimal transit design, Transportation equity.  
