@@ -40,24 +40,15 @@ Recently Updates Test
   -->
   {% for update in sorted_updates limit:5 %}
    <!-- 循环遍历sorted_updates变量 limit:5 - 限制只循环前5个元素（最新的5条更新）;每次循环中，当前项存储在update变量中-->
-    <div class="update-item" style="margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
-      <h3 style="margin-bottom: 5px;">
+    <div class="update-item" style="margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid #eee;">
+      <!-- 标题链接 -->
+      <h3 style="margin-bottom: 5px; font-size: 1.1em;">
         <a href="{{ update.url | relative_url }}">{{ update.title }}</a>
       </h3>
-       <!-- 更新标题：
-           - update.title - 从更新文件的front matter中获取title字段
-           - update.url - Jekyll自动生成的该更新的URL
-           - relative_url - 过滤器，确保URL相对于网站根目录正确
-      -->
-      <p style="color: #666; font-size: 0.9em; margin-bottom: 10px;">
+      <!-- 日期 -->
+      <p style="color: #666; font-size: 0.85em; margin: 0;">
         {{ update.date | date: "%B %d, %Y" }}
       </p>
-      {% if update.excerpt %}
-        <p style="margin-bottom: 5px;">{{ update.excerpt | strip_html | truncate: 200 }}</p>
-      {% endif %}
-      {% if update.image %}
-        <img src="{{ update.image | relative_url }}" alt="{{ update.title }}" style="max-width: 100%; height: auto; margin-top: 10px;">
-      {% endif %}
     </div>
   {% endfor %}
 </div>
