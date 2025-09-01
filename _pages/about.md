@@ -54,6 +54,6 @@ Recently Updates Test
   <a href="{{ '/updates/' | relative_url }}" style="font-weight: bold;">View All Updates →</a>
 </p>
 
-For more info
-======
-Check more [here](https://xiaotongsun.com/index.php/research/) if you are interested in my research.
+
+
+
