@@ -138,7 +138,7 @@ author_profile: true
     <!-- Former PhD Students -->
     <div class="alumni-category">
       <h3>Former PhD Students</h3>
-      {% assign phd_alumni = site.group | where: 'status', 'alumni' | where: 'category', 'phd' %}
+      {% assign phd_alumni = site.group | where: 'status', 'alumni' | where: 'category', 'phd' | sort: 'date' | reverse %}
       {% for member in phd_alumni %}
         <div class="alumni-member">
           <div class="alumni-name">
@@ -161,7 +161,7 @@ author_profile: true
     <!-- Former Master Students -->
     <div class="alumni-category">
       <h3>Former Master Students</h3>
-      {% assign master_alumni = site.group | where: 'status', 'alumni' | where: 'category', 'master' %}
+      {% assign master_alumni = site.group | where: 'status', 'alumni' | where: 'category', 'master' | sort: 'date' | reverse %}
       {% for member in master_alumni %}
         <div class="alumni-member">
           <div class="alumni-name">
