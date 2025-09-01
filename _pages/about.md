@@ -13,7 +13,7 @@ Led by Dr. Xiaotong Sun, the Lab of Mobility Optimization and DEcision Science (
 
 Research Highlights
 ======
-![1](../images/research-highlight.jpg)<br>
+![1](../images/research_highlight.gif)<br>
 
    
 Recently Updates
