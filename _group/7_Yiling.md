@@ -15,6 +15,6 @@ status: current
 
 **Role**: Mphill Student  
 **Research Interests**: Optimal transit design, Transportation equity.  
-**Bio**: Yiling earned her BSc in Statistics from Southern University of Science and Technology and subsequently obtained a MSc degree in Business Analytics from the Hong Kong University of Science and Technology. Her research interests focus on transportation equity and the policy design of public transit systems.
+**Bio**: Yiling earned her BSc in Statistics from Southern University of Science and Technology and subsequently obtained a MSc degree in Business Analytics from the HKUST(GZ). Her research interests focus on transportation equity and the policy design of public transit systems.
 
 ![Yiling Luo](../images/photos/Yiling.png)
