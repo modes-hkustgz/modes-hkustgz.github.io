@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Yiling Luo (2023 Fall)"
+title: "Yiling Luo (Graduated in 2025)"
 author_profile: true
 collection: group
 role: Mphill Student
