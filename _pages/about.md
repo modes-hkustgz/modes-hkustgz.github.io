@@ -32,11 +32,23 @@ Recently Updates Test
 
 <div class="recent-updates">
   {% assign sorted_updates = site.updates | sort: 'date' | reverse %}
+     <!-- 核心逻辑：
+       1. site.updates - Jekyll自动读取_updates文件夹中的所有文件，形成一个集合
+       2. | sort: 'date' - 管道符后的sort按照每个文件中的date字段排序
+       3. | reverse - 反转排序（从新到旧）
+       4. assign sorted_updates - 将排序后的结果赋值给变量sorted_updates
+  -->
   {% for update in sorted_updates limit:5 %}
+   <!-- 循环遍历sorted_updates变量 limit:5 - 限制只循环前5个元素（最新的5条更新）;每次循环中，当前项存储在update变量中-->
     <div class="update-item" style="margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
       <h3 style="margin-bottom: 5px;">
         <a href="{{ update.url | relative_url }}">{{ update.title }}</a>
       </h3>
+       <!-- 更新标题：
+           - update.title - 从更新文件的front matter中获取title字段
+           - update.url - Jekyll自动生成的该更新的URL
+           - relative_url - 过滤器，确保URL相对于网站根目录正确
+      -->
       <p style="color: #666; font-size: 0.9em; margin-bottom: 10px;">
         {{ update.date | date: "%B %d, %Y" }}
       </p>
