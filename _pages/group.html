@@ -24,9 +24,12 @@ author_profile: true
   background: #f9f9f9;
 }
 
+
 .member-card img {
-  max-width: 100%;
-  height: auto;
+  width: 250px;      /* 固定宽度 */
+  height: 250px;     /* 固定高度 */
+  object-fit: cover; /* 关键：保持比例并裁剪 */
+  display: block;    /* 消除底部间隙 */
   border-radius: 5px;
   margin-bottom: 10px;
 }
