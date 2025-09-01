@@ -181,33 +181,12 @@ author_profile: true
       {% endfor %}
     </div>
     
-    <!-- Former Postdocs -->
-    <div class="alumni-category">
-      <h3>Former Postdocs</h3>
-      {% assign postdoc_alumni = site.group | where: 'status', 'alumni' | where: 'category', 'postdoc' %}
-      {% for member in postdoc_alumni %}
-        <div class="alumni-member">
-          <div class="alumni-name">
-            {% if member.homepage %}
-              Dr. <a href="{{ member.homepage }}" target="_blank">{{ member.title }}</a>
-            {% else %}
-              Dr. {{ member.title }}
-            {% endif %}
-            {% if member.graduation_date %}
-              <span class="graduation-date">({{ member.graduation_date }})</span>
-            {% endif %}
-          </div>
-          {% if member.first_position %}
-            <div class="first-position">{{ member.first_position }}</div>
-          {% endif %}
-        </div>
-      {% endfor %}
-    </div>
+    
     
     <!-- Former Visiting Scholars -->
     <div class="alumni-category">
       <h3>Former Scholars</h3>
-      {% assign scholar_alumni = site.group | where: 'status', 'alumni' | where: 'category', 'visiting_scholar' %}
+      {% assign scholar_alumni = site.group | where: 'status', 'alumni' | where: 'category', 'visiting_scholar' | sort: 'date' | reverse %}
       {% for member in scholar_alumni %}
         <div class="alumni-member">
           <div class="alumni-name">
