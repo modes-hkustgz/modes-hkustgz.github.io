@@ -11,7 +11,7 @@ category: master
 first_position: PhD at UW-Madison
 ---
 
-# Hangyu Li (2022 Fall)
+# Hangyu Li (Graduated in 2024)
 
 **Role**: Mphill 
 #**Research Interests**: Connected and automated vehicles and transportation sensing.  
