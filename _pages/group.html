@@ -188,7 +188,7 @@ author_profile: true
     
     <!-- Former Visiting Scholars -->
     <div class="alumni-category">
-      <h3>Former Scholars</h3>
+      <h3>Former Visiting Scholars</h3>
       {% assign scholar_alumni = site.group | where: 'status', 'alumni' | where: 'category', 'visiting_scholar' | sort: 'date' | reverse %}
       {% for member in scholar_alumni %}
         <div class="alumni-member">
