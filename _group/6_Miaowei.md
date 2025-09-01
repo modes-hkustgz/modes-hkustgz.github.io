@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Miaowei XI (2023 Fall)"
+title: "Miaowei XI (2025 Fall)"
 author_profile: true
 collection: group
 role: Ph.D. Student
