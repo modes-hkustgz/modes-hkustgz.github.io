@@ -15,15 +15,8 @@ Research Highlights
 ======
 ![1](../images/research-highlight.jpg)<br>
 
-Recently Updates
-======
-1. Advance Notice: Xiaotong will attend ISTDM 2025 in Montréal, Canada, from September 3–5, 2025, and deliver presentations.
-2. Professor Sun, Manlian, Miaowei, Wenjie attended the 16th International Workshop on Computational Transportation Science in Wuhan，Chinese from July 25 to 27, 2025, and made presentations.
-3. Chaoyu attended ITEA in Northwest University, Chicago, America from June 23 to 27, 2025, and made presentations.
-4. Hangyu published an article in Transportation Research Part C on June 22, 2025.
-5. Xinzhu attended Transportation Science and Logistics Conference in Seoul，Korea from May 19 to 21, 2025, and made presentations.
    
-Recently Updates Test
+Recently Updates
 ======
 {% comment %}
   自动从_updates文件夹获取最新的5条更新
