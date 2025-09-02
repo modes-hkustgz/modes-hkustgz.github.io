@@ -36,28 +36,28 @@
   @media (min-width: 64em) { /* 只在桌面宽屏应用，避免移动端问题 */
     /* 针对侧边栏添加顶部margin，只限主页 */
     body.home .sidebar {
-      margin-top: 300px !important; /* 匹配logo+手动title高度；测试微调 */
+      margin-top: 300px !important; /* 匹配logo高度+margin；测试微调，如 200px 如果太高 */
     }
 
-    /* 强制logo全宽展开，脱离父容器流，覆盖侧边栏顶部空间 */
+    /* 强制logo全宽展开，覆盖侧边栏顶部空间，并优化尺寸 */
     .full-logo {
-      position: absolute !important; /* 脱离文档流 */
-      left: 0 !important; /* 从页面最左开始 */
-      top: 0 !important; /* 从导航栏下开始（假设无header；如果有，调整top: 60px;） */
-      width: 100% !important; /* 全视口宽（用%而非vw，避免滚动条） */
-      max-width: none !important; /* 移除任何最大宽度限制 */
+      width: 100vw !important; /* 全视口宽，确保扩展 */
+      max-width: none !important; /* 移除最大宽度限制 */
+      transform: translateX(calc(-1 * var(--sidebar-width-normal, 300px))) !important; /* 向左移覆盖侧边栏，不影响流 */
+      position: relative;
       height: auto;
-      min-height: 200px;
+      min-height: 200px; /* 基于图像尺寸，确保垂直铺满；试 250px 如果太扁 */
       object-fit: contain;
-      z-index: -1 !important; /* 放后台，避免覆盖文字 */
+      display: block;
+      margin-bottom: 20px;
     }
 
-    /* 覆盖父容器以允许溢出，并添加padding留logo空间 */
+    /* 覆盖父容器以允许溢出和变形扩展 */
     body.home .page__content {
-      position: relative !important; /* 让子absolute相对此定位 */
       overflow: visible !important;
       max-width: none !important;
-      padding-top: 220px !important; /* logo min-height 200px + margin 20px；调整以匹配 */
+      padding-top: 0 !important; /* 移除padding，靠logo margin-bottom推内容 */
+      transform-style: preserve-3d; /* 允许transform扩展 */
     }
 
     /* 可选：确保主内容其他图像不溢出 */
