@@ -34,9 +34,9 @@
 <!-- Start of custom CSS for homepage adjustments: This shifts the sidebar down to align with text below the logo and extends the logo to full width covering sidebar space. To revert, delete from this comment to the end comment. -->
 <style>
   @media (min-width: 64em) { /* 只在桌面宽屏应用，避免移动端问题 */
-    /* 针对侧边栏添加顶部margin，以向下平移并与logo下文字对齐 */
-    .sidebar {
-      margin-top: 300px !important; /* 匹配logo+手动title高度 */
+    /* 针对侧边栏添加顶部margin，只限主页 */
+    body.home .sidebar {
+      margin-top: 300px !important; /* 匹配logo+手动title高度；测试微调 */
     }
 
     /* 强制logo全宽展开，覆盖侧边栏顶部空间，并优化尺寸 */
