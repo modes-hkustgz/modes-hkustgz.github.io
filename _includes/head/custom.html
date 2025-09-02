@@ -30,3 +30,19 @@
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <!-- end custom head snippets -->
+
+
+<!-- Start of custom CSS for homepage adjustments: This shifts the sidebar down to align with text below the logo. To revert, delete from this comment to the end comment. -->
+<style>
+  /* 针对侧边栏添加顶部margin，以向下平移并与logo下文字对齐 */
+  .sidebar {
+    margin-top: 200px; /* 根据您的logo高度调整；图像分析显示约150-200px，测试后微调 */
+  }
+
+  /* 可选：确保主内容图像不溢出 */
+  .page__content img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+<!-- End of custom CSS for homepage adjustments -->
