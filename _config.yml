@@ -6,6 +6,10 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
+# 尝试使用样式覆盖主页
+head_scripts:
+  - /assets/css/profsun.css
+
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
