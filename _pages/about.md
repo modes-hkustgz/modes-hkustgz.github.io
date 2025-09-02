@@ -8,10 +8,6 @@ author_profile: true
 <img src="/images/MODES-3.png" alt="lab" class="full-logo" style="display:block; margin-bottom:20px;">
 <!-- 分段注释: logo图像部分结束 -->
 
-<!-- 分段注释: 手动标题部分开始 (替换自动渲染的 title) -->
-<h1 class="page__title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
-<!-- 分段注释: 手动标题部分结束 -->
-
 <!-- 分段注释: 文字描述部分开始 -->
 Led by Dr. Xiaotong Sun, the Lab of Mobility Optimization and DEcision Science (MODES) at HKUST (Guangzhou) focuses on the **planning, operation, and regulation** of multi-modal transportation systems empowered by emerging technologies. Drawing on analytical optimization, game theory, and data-driven approaches, MODES advances research through a **dual lens**: modeling to understand how complex transportation systems operate, and optimizing to enhance their performance.
 <!-- 分段注释: 文字描述部分结束 -->
