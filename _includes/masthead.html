@@ -6,7 +6,13 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <!-- 对logo嵌入左上角的尝试 logo in homepage tab: Replace site.title text with logo image for homepage tab. To revert, remove this block and restore the original line: <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li> -->
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            <a href="{{ base_path }}/">
+              <img src="{{ '/images/MODES-3.png' | relative_url }}" alt="{{ site.title | escape }}" style="height: 40px; width: auto; vertical-align: middle;">
+            </a>
+          </li>
+          <!-- 以上为对logo嵌入左上角的尝试 -->
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
