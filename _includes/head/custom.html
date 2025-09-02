@@ -36,24 +36,24 @@
   @media (min-width: 64em) { /* 只在桌面宽屏应用，避免移动端问题 */
     /* 针对侧边栏添加顶部margin，只限主页 */
     body.home .sidebar {
-      margin-top: 300px !important; /* 匹配logo+手动title高度；测试微调 */
+      margin-top: 300px !important; /* 匹配logo高度 + margin；测试微调，如 200px 如果太高 */
     }
 
     /* 强制logo全宽展开，覆盖侧边栏顶部空间，并优化尺寸 */
     .full-logo {
-      width: 100vw !important;
-      max-width: none !important; /* 移除任何最大宽度限制 */
-      margin-left: calc(-1 * var(--sidebar-width-normal, 300px)) !important;
-      position: relative;
+      position: relative !important; /* 保持相对定位，不脱离流 */
+      width: calc(100% + var(--sidebar-width-normal, 300px)) !important; /* 扩展宽度 = 内容宽 + 侧边栏宽 */
+      max-width: none !important; /* 移除主题最大宽度限制 */
+      margin-left: calc(-1 * var(--sidebar-width-normal, 300px)) !important; /* 负margin-left 向左移覆盖侧边栏 */
       height: auto;
-      min-height: 200px;
-      object-fit: contain;
+      min-height: 200px; /* 确保垂直铺满；基于原图 ~147px，调整为 150px 如果太高 */
+      object-fit: contain; /* 保持比例不失真 */
     }
 
     /* 覆盖父容器以允许溢出 */
-    .page__content {
-      overflow: visible !important;
-      max-width: none !important;
+    body.home .page__content {
+      overflow: visible !important; /* 允许 logo 溢出父容器 */
+      max-width: none !important; /* 移除父级宽度限制 */
     }
 
     /* 可选：确保主内容其他图像不溢出 */
