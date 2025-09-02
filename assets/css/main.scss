@@ -40,3 +40,52 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* ==========================================================================
+   CUSTOM STYLES FOR MODES HOMEPAGE
+   ========================================================================== */
+
+/* 主页logo全宽显示 */
+.page__content img[src*="MODES-3.png"],
+.page__content img[src*="MODES-3"] {
+    width: 100% !important;
+    max-width: 800px !important;
+    height: auto !important;
+    display: block !important;
+    margin: 20px auto 40px auto !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 调整主页整体布局 */
+.initial-content .sidebar {
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+}
+
+/* 移动端适配 */
+@media (max-width: 1024px) {
+    .page__content img[src*="MODES-3.png"],
+    .page__content img[src*="MODES-3"] {
+        max-width: 100% !important;
+        margin: 15px auto 30px auto !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .page__content img[src*="MODES-3.png"],
+    .page__content img[src*="MODES-3"] {
+        margin: 10px auto 20px auto !important;
+    }
+}
