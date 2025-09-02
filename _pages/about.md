@@ -1,16 +1,8 @@
 ---
 permalink: /
-title: ""
+title: "Welcome to the Lab of Mobility Optimization and DEcision Science (MODES) at HKUST(GZ)"
 author_profile: true
 ---
-
-<!-- 分段注释: logo作为视觉标题部分开始 -->
-<img src="/images/MODES-3.png" alt="lab" class="full-logo" style="display:block; margin-bottom:20px;">
-<!-- 分段注释: logo作为视觉标题部分结束 -->
-
-<!-- 分段注释: 手动标题部分开始 -->
-<h1 style="font-size: 2em; margin-top: 0; color: #333;">Welcome to the Lab of Mobility Optimization and DEcision Science (MODES) at HKUST(GZ)</h1>
-<!-- 分段注释: 手动标题部分结束 -->
 
 <!-- 分段注释: 文字描述部分开始 -->
 Led by Dr. Xiaotong Sun, the Lab of Mobility Optimization and DEcision Science (MODES) at HKUST (Guangzhou) focuses on the **planning, operation, and regulation** of multi-modal transportation systems empowered by emerging technologies. Drawing on analytical optimization, game theory, and data-driven approaches, MODES advances research through a **dual lens**: modeling to understand how complex transportation systems operate, and optimizing to enhance their performance.
