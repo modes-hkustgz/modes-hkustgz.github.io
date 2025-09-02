@@ -34,19 +34,30 @@
 <!-- Start of custom CSS for homepage adjustments: This shifts the sidebar down to align with text below the logo and extends the logo to full width covering sidebar space. To revert, delete from this comment to the end comment. -->
 <style>
   @media (min-width: 64em) { /* 只在桌面宽屏应用，避免移动端问题 */
-    /* 针对侧边栏添加顶部margin，只限主页 */
-    body.home .sidebar {
-      margin-top: 300px !important; /* 匹配logo+手动title高度；测试微调 */
+    /* 针对侧边栏添加顶部margin，只限主页，覆盖常见 body class 变体 */
+    body.home .sidebar,
+    body.archive .sidebar,
+    body.home.archive .sidebar {
+      margin-top: 300px !important; /* 匹配logo+手动title高度；测试微调，如 250px 如果太高 */
     }
 
     /* 强制logo全宽展开，覆盖侧边栏顶部空间，并优化尺寸 */
     .full-logo {
       width: 100vw !important;
+      max-width: none !important; /* 覆盖主题 img max-width: 100% */
       margin-left: calc(-1 * var(--sidebar-width-normal, 300px)) !important;
       position: relative;
       height: auto;
       min-height: 200px;
       object-fit: contain;
+    }
+
+    /* 覆盖页面容器限制，允许全宽扩展 */
+    body.home .page__inner-wrap,
+    body.archive .page__inner-wrap,
+    body.home.archive .page__inner-wrap {
+      max-width: none !important; /* 移除主题 max-width: 1280px */
+      overflow: visible !important; /* 允许溢出 */
     }
 
     /* 可选：确保主内容其他图像不溢出 */
