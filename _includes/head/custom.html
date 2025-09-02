@@ -34,16 +34,23 @@
 <!-- Start of custom CSS for homepage adjustments: This shifts the sidebar down to align with text below the logo and extends the logo to full width covering sidebar space. To revert, delete from this comment to the end comment. -->
 <style>
   @media (min-width: 64em) { /* 只在桌面宽屏应用，避免移动端问题 */
+    /* 隐藏自动渲染的页面标题（只针对主页） */
+    body.home .page__title {
+      display: none !important;
+    }
+
     /* 针对侧边栏添加顶部margin，以向下平移并与logo下文字对齐 */
     .sidebar {
       margin-top: 250px !important; /* 增加值以匹配截图中logo+title高度；测试后微调，如200px或300px */
     }
 
-    /* 扩展logo到全宽，覆盖侧边栏顶部空间 */
+    /* 扩展logo到全宽，覆盖侧边栏顶部空间，并优化尺寸以铺满 */
     .full-logo {
       width: calc(100% + var(--sidebar-width-normal, 300px)) !important;
       margin-left: calc(-1 * var(--sidebar-width-normal, 300px)) !important;
       height: auto;
+      min-height: 150px; /* 确保高度铺满视觉空间，基于图像分析；如果太小，上传更大原图 */
+      object-fit: contain; /* 保持比例不失真 */
     }
 
     /* 可选：确保主内容其他图像不溢出 */
