@@ -1,9 +1,0 @@
----
-title: "Advance Notice: Xiaotong delivers presentation about Truck Platooning and Vehicle Routing Problems in George Washington University, Washington, DC, United States, at Oct 27, 2025."
-collection: updates
-date: 2025-10-27
-permalink: /updates/2025-10-xiaotong-MC25.md
-
----
-Xiaotong  delivers presentation in George Washington University, Washington, DC, United States, at Oct 27, 2025.
-In real-world logistics, each truck may need to serve multiple customers located at different places, and the operator managing a fleet of trucks thus has to determine not only the routing and time schedules of each truck but also the set of customers allocated to each truck and their sequence to visit. This is well known as a capacitated vehicle routing problem with time windows (CVRPTW), and considering the application of truck platooning in such a problem entails new modeling frameworks and tailored solution algorithms. In light of this, this study makes the first attempt to optimize the truck platooning plan for a road-network CVRPTW in a way to minimize the total operation cost, including vehicles’ fixed dispatch cost and energy cost, while fulfilling all delivery demands within their time window constraints. Specifically, the operation plan will dictate the number of trucks to be dispatched, the set of customers, and the routing and time schedules for each truck. In addition, the modeling framework is constructed based on a road network instead of a traditional customer node graph to better resemble and facilitate the platooning operation. A 3-stage algorithm embedded with a “route-then-schedule” scheme, Dynamic Programming, and Modified Insertion heuristic, is developed to solve the proposed model in a timely manner. Numerical experiments are conducted to validate the proposed modeling framework, demonstrate the performance of the proposed solution algorithm, and quantify the benefit brought by the truck platooning technology.
