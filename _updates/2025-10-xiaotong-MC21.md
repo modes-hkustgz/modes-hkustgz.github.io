@@ -14,9 +14,8 @@ And three presentations will be delivered.<br>
 **Presenter:** Chaoyu Wu<br>
 **Session:** WA21 - Advances in Urban and On-Demand Delivery Systems<br>
 **Time & Location:** Wed, Oct 29, 08:54 - 09:12, GMT-4. Building A Level 4 A407<br>
-
-<span style="font-size: smaller;"><em>**Led by Collaborators**</em></span>
 ### 3. Planning of Truck Platooning for Road-Network Capacitated Vehicle Routing Problem<br>
+_**Led by Collaborators**_<br>
 **Presenter:** Yilang Hao<br>
 **Session:** MC25 - Truck Platooning and Vehicle Routing Problems<br>
 **Time & Location:** Mon, Oct 27, 13:45 - 14:00, GMT-4. Building A Level 4 A411<br>
