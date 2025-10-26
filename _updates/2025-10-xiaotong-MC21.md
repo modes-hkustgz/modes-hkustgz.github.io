@@ -4,18 +4,20 @@ collection: updates
 date: 2025-10-27
 permalink: /updates/2025-10-xiaotong-MC21.md
 ---
-### #1. Economic Analysis of On-Street Parking with Urban Delivery
-- **Presenter**: Dr. Xiaotong Sun
-- **Session**: MC21 - TSL Best Paper Award and TS Journal Paper of the Year award
-- **Time & Location**: Mon, Oct 27, 14:00 - 15:27, GMT-4. Building A Level 4 A407
+And three presentations will be delivered.
 
-### #2. Who Benefits from Drone-Enhanced Food Delivery? An Economic Analysis of the Food Delivery Market
-- **Presenter**: Chaoyu Wu
-- **Session**: WA21 - Advances in Urban and On-Demand Delivery Systems
-- **Time & Location**: Wed, Oct 29, 08:54 - 09:12, GMT-4. Building A Level 4 A407
+### 1. Economic Analysis of On-Street Parking with Urban Delivery
+**Presenter:** Dr. Xiaotong Sun  
+**Session:** MC21 - TSL Best Paper Award and TS Journal Paper of the Year award  
+**Time & Location:** Mon, Oct 27, 14:00 - 15:27, GMT-4. Building A Level 4 A407
 
-### Led by Collaborators:
-### #3. Planning of Truck Platooning for Road-Network Capacitated Vehicle Routing Problem
-- **Presenter**: Yilang Hao
-- **Session**: MC25 - Truck Platooning and Vehicle Routing Problems
-- **Time & Location**: Mon, Oct 27, 13:45 - 14:00, GMT-4. Building A Level 4 A411
+### 2. Who Benefits from Drone-Enhanced Food Delivery? An Economic Analysis of the Food Delivery Market
+**Presenter:** Chaoyu Wu  
+**Session:** WA21 - Advances in Urban and On-Demand Delivery Systems  
+**Time & Location:** Wed, Oct 29, 08:54 - 09:12, GMT-4. Building A Level 4 A407
+
+### Led by Collaborators
+### 3. Planning of Truck Platooning for Road-Network Capacitated Vehicle Routing Problem
+**Presenter:** Yilang Hao  
+**Session:** MC25 - Truck Platooning and Vehicle Routing Problems  
+**Time & Location:** Mon, Oct 27, 13:45 - 14:00, GMT-4. Building A Level 4 A411
