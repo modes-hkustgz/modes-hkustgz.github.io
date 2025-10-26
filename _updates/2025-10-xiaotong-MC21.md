@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Attention Notice: MODES attends INFORMS Annual Meeting 2025 at Atlanta, GA, Oct 27th to Oct 29th."
 collection: updates
 date: 2025-10-27
