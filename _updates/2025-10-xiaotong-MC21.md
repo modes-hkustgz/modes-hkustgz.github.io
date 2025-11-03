@@ -3,7 +3,7 @@ layout: post
 title: "Attention Notice: MODES attends INFORMS Annual Meeting 2025 at Atlanta, GA, Oct 27th to Oct 29th."
 collection: updates
 date: 2025-10-27
-permalink: /updates/2025-10-xiaotong-MC21.md
+permalink: /updates/2025-10-xiaotong-MC21
 ---
 And three presentations will be delivered.<br>
 ### 1. Economic Analysis of On-Street Parking with Urban Delivery<br>
