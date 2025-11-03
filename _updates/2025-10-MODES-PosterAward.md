@@ -10,7 +10,7 @@ A total of two students have won the first prize, one student has won the second
 **Poster**: System-Wide Capacity Modeling for Urban Air Mobility underWind Effects<br>
 ![Image](../images/miaowei.jpg) 
 ### 2. Haoyu Mo has won the second prize<br>
-**Poster**: Who Benefits from Drone-Enhanced Food Delivery? An Economic Analysis of the Food Delivery Market<br>
+**Poster**: Optimal Reservation Policy for Metro Passenger Flow Management<br>
 ![Image](../images/haoyu.jpg) 
 ### 3. Xinzhu Ren, Chenglin Zhuang and Manlian Pan have won the thrid prize<br>
 **Poster**: A Scalable Hub-based Truck Platoon Coordination Framework via Hierarchically Decoupled Deep Reinforcement Learning<br>
