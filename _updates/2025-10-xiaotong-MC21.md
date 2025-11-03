@@ -10,10 +10,12 @@ And three presentations will be delivered.<br>
 **Presenter:** Dr. Xiaotong Sun<br>
 **Session:** MC21 - TSL Best Paper Award and TS Journal Paper of the Year award<br>
 **Time & Location:** Mon, Oct 27, 14:00 - 15:27, GMT-4. Building A Level 4 A407<br>
+![Image](../images/xiaotong1027.jpg) 
 ### 2. Who Benefits from Drone-Enhanced Food Delivery? An Economic Analysis of the Food Delivery Market<br>
 **Presenter:** Chaoyu Wu<br>
 **Session:** WA21 - Advances in Urban and On-Demand Delivery Systems<br>
 **Time & Location:** Wed, Oct 29, 08:54 - 09:12, GMT-4. Building A Level 4 A407<br>
+![Image](../images/chaoyu1027.jpg) 
 ### 3. Planning of Truck Platooning for Road-Network Capacitated Vehicle Routing Problem<br>
 **_Led by Collaborators_**<br>
 **Presenter:** Yilang Hao<br>
