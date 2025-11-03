@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Hangyu Li (Graduated in 2024)"
+title: "Hangyu Li (Graduated in 2023)"
 author_profile: true
 collection: group
 role: Mphill
@@ -11,7 +11,7 @@ category: master
 first_position: PhD at UW-Madison
 ---
 
-# Hangyu Li (Graduated in 2024)
+# Hangyu Li (Graduated in 2023)
 
 **Role**: Mphill 
 #**Research Interests**: Connected and automated vehicles and transportation sensing.  
