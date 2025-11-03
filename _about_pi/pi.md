@@ -3,7 +3,7 @@ layout: single  # Use single layout, similar to group member pages
 title: "About Principal Investigator"
 collection: about_pi
 permalink: /about_pi/pi
-photo: "/images/xiaotong_sun.jpg"  # Optional: Add PI photo path (upload the image if needed)
+photo: "/images/Xiaotong_HKUST_Bio_Crop.jpeg"  # Optional: Add PI photo path (upload the image if needed)
 ---
 
 # About Me
