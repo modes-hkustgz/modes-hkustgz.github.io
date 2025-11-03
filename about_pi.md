@@ -18,7 +18,7 @@ Dr. Xiaotong Sun (孙晓通) is an Assistant Professor in the Intelligent Transp
 Planning, operations, and regulations of multi-modal transportation systems integrating emerging technologies.
 
 ## Methodology
-Data-driven Optimization, Computational Game Theory, Mechanism Design, Transportation Systems Modeling, Transportation Economics.
+Optimization, Game Theory, Mechanism Design, Data-driven Approaches, Transportation Systems Modeling, Transportation Economics.
 
 ## Selected Research Topics
 ### Implications of AI Agent Technologies for Transportation Systems
