@@ -8,7 +8,7 @@ role: Mphill
 bio: 
 status: alumni
 category: master
-first_position: PhD in HKUST(GZ)
+first_position: PhD at HKUST(GZ)
 ---
 
 # Yangjie Gao (Graduated in 2025, co-supervised)
