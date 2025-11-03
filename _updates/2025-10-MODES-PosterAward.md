@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Attention Notice: MODES attends 2025 INTR Academic Star Gathering- Spolight Poster at HKUST(GZ), GZ, Oct 29th."
+title: "MODES attended the 2025 INTR Academic Star Gathering - Spotlight Poster and received multiple awards at HKUST(GZ), GZ, Oct 29th."
 collection: updates
 date: 2025-10-29
 permalink: /updates/2025-10-MODES-PosterAward
