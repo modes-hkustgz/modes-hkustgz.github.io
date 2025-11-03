@@ -15,7 +15,7 @@ Dr. Xiaotong Sun (孙晓通) is an Assistant Professor in the Intelligent Transp
 - Bachelor in Transportation Engineering, Minor in Mathematics, Tongji University
 
 ## Research Areas
-Planning, optimization, and regulation of multi-modal transportation systems integrating emerging technologies.
+Planning, operations, and regulations of multi-modal transportation systems integrating emerging technologies.
 
 ## Methodology
 Data-driven Optimization, Computational Game Theory, Mechanism Design, Transportation Systems Modeling, Transportation Economics.
