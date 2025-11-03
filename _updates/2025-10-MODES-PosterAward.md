@@ -12,8 +12,11 @@ A total of two students have won the first prize, one student has won the second
 ### 2. Haoyu Mo has won the second prize<br>
 **Poster**: Optimal Reservation Policy for Metro Passenger Flow Management<br>
 ![Image](../images/haoyu.jpg) 
-### 3. Xinzhu Ren, Chenglin Zhuang and Manlian Pan have won the third prize<br>
-**Poster**: A Scalable Hub-based Truck Platoon Coordination Framework via Hierarchically Decoupled Deep Reinforcement Learning<br>
+### 3. Manlian Pan, Xinzhu Ren and Chenglin Zhuang and have won the third prize<br>
+**Mainlian's Poster**: What Determines Travelers' Acceptance of Maas? Insights from a Meta-Analysis<br>
+**Xinzhu's Poster**: A Scalable Hub-based Truck Platoon Coordination Framework via Hierarchically Decoupled Deep Reinforcement Learning<br>
+**Chenglin's Poster**: Benefit Redistribution Mechanisms for Multi-Operator Truck Platooning in Noncooperative Game Perspective<br>
+
 ![Image](../images/xinzhu.jpg) 
 ### 4. Junying Ma has received the Excellence Award<br>
 **Poster**: Transportation Acessibility and Corporate Productivity: Evidence from Commuting Time<br>
