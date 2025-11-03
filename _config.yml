@@ -23,11 +23,11 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Xiaotong_Portrait_2019-683x1024.png"
+  avatar           : "Xiaotong_HKUST_Bio_Crop.jpeg"
   name             : "Xiaotong Sun"
   pronouns         : # example: "she/her"  
-  bio              : "Xiaotong Sun is an assistant professor in the Intelligent Transportation Thrust (Guangzhou Campus)"
-  location         : "Rm 513 W1, HKUST(GZ), Nansha, Guangzhou"
+  bio              : "Xiaotong Sun is an assistant professor in the Intelligent Transportation Thrust at HKUST(GZ)"
+  location         : "Rm 513 W1, 1st Duxue Rd, Guangzhou"
   employer         : "HKUST(GZ)"
   uri              : # URL
   email            : " xtsun@ust.hk" 
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "Xiaotong Sun"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
