@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-# About the Principal Investigator
-
 Dr. Xiaotong Sun (孙晓通) is an Assistant Professor in the Intelligent Transportation Thrust at the Hong Kong University of Science and Technology (Guangzhou). She also holds a joint appointment with the Innovation, Public Policy, and Entrepreneurship Thrust, and is an affiliated Assistant Professor in the Department of Civil and Environmental Engineering at HKUST.
 
 ## Education
