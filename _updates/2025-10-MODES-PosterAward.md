@@ -5,10 +5,10 @@ collection: updates
 date: 2025-10-29
 permalink: /updates/2025-10-MODES-PosterAward
 ---
-Multiple students have received awards at different levels.<br>
+A total of two students have won the first prize, one student has won the second prize, three students have won the third prize, and one student has received the Excellence Award. <br>
 ### 1. Miaowei Xi and Wenjie Zhu have won the first prize<br>
 **Poster**: System-Wide Capacity Modeling for Urban Air Mobility underWind Effects<br>
-**Description**: Only one group can receive the first prize.<br>
+**Description**: There are two.<br>
 ![Image](../images/miaowei.jpg) 
 ### 2. Haoyu Mo has won the second prize<br>
 **Poster**: Who Benefits from Drone-Enhanced Food Delivery? An Economic Analysis of the Food Delivery Market<br>
