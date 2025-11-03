@@ -14,5 +14,5 @@ first_position: PhD in HKUST(GZ)
 # Yangjie Gao (Graduated in 2025, co-supervised)
 
 **Role**: Mphill 
-#**Research Interests**: 
+#**Research Interests**: Platform Economy 
 **Bio**: 
