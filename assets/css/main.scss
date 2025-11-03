@@ -41,5 +41,20 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
+/* 自定义规则：只针对 updates 页面的内容右移 */
+body.path-updates .page {
+  margin-left: 100px; /* 调整为匹配标题栏偏移的值，例如50px或150px。通过浏览器Inspect测量。 */
+}
 
+/* 可选：调整内部列表项 */
+body.path-updates .archive__item {
+  padding-left: 100px;
+}
+
+/* 响应式调整 */
+@media (max-width: 800px) {
+  body.path-updates .page {
+    margin-left: 20px;
+  }
+}
 
