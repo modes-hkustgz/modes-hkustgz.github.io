@@ -10,15 +10,15 @@ Led by Dr. Xiaotong Sun, the Lab of **Mobility Optimization and DEcision Science
 
 
 <!-- 分段注释: Research Highlights部分开始 -->
-Research Highlights
-======
+# Research Highlights
+
 ![1](../images/research_highlight.gif)<br>
 <!-- 分段注释: Research Highlights部分结束 -->
 
    
 <!-- 分段注释: Recently Updates部分开始 -->
-Recently Updates
-======
+# Recently Updates
+
 {% comment %}
   自动从_updates文件夹获取最新的5条更新
   按日期降序排列，只显示最近的内容
