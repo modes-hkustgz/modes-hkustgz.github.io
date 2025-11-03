@@ -10,7 +10,7 @@ Multiple students have received awards at different levels.<br>
 **Poster**: System-Wide Capacity Modeling for Urban Air Mobility underWind Effects<br>
 **Description**: Only one group can receive the first prize.<br>
 ![Image](../images/miaowei.jpg) 
-### 2. Mo Yuhao has won the second prize<br>
+### 2. Haoyu Mo has won the second prize<br>
 **Poster**: Who Benefits from Drone-Enhanced Food Delivery? An Economic Analysis of the Food Delivery Market<br>
 **Description**: A total of three groups can receive the second prize.
 ![Image](../images/haoyu.jpg) 
