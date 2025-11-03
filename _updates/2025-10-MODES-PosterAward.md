@@ -6,19 +6,17 @@ date: 2025-10-29
 permalink: /updates/2025-10-MODES-PosterAward
 ---
 Multiple students have received awards at different levels.<br>
-### 1. System-Wide Capacity Modeling for Urban Air Mobility underWind Effects<br>
-**Representative of the Participants:** Miaowei Xi<br>
-**Award**: First Prize.<br>
-**Description**: Only one group can receive the first prize.
+Miaowei Xi and Wenjie Zhu have won the first prize. Only one group can receive the first prize.<br>
+### 1. Miaowei Xi and Wenjie Zhu have won the first prize<br>
+**Poster**: System-Wide Capacity Modeling for Urban Air Mobility underWind Effects<br>
+**Description**: Only one group can receive the first prize.<br>
 ![Image](../images/miaowei.jpg) 
-### 2. Who Benefits from Drone-Enhanced Food Delivery? An Economic Analysis of the Food Delivery Market<br>
-**Representative of the Participants:** Mo Haoyu<br>
-**Award**: Second Prize.<br>
+### 2. Mo Yuhao has won the second prize<br>
+**Poster**: Who Benefits from Drone-Enhanced Food Delivery? An Economic Analysis of the Food Delivery Market<br>
 **Description**: A total of three groups can receive the second prize.
 ![Image](../images/haoyu.jpg) 
-### 3. A Scalable Hub-based Truck Platoon Coordination Framework via Hierarchically Decoupled Deep Reinforcement Learning<br>
-**Representative of the Participants:** Xinzhu Ren<br>
-**Award**: Third Prize.<br>
+### 3. Xinzhu Ren, chenglin Zhuang and Manlian Pan have won the thrid prize<br>
+**Poster**: A Scalable Hub-based Truck Platoon Coordination Framework via Hierarchically Decoupled Deep Reinforcement Learning<br>
 **Description**: A total of ten groups can receive the third prize.
 ![Image](../images/xinzhu.jpg) 
 
