@@ -1,16 +1,18 @@
 ---
 layout: post
-title: "Attention Notice: MODES attends INFORMS Annual Meeting 2025 at Atlanta, GA, Oct 27th to Oct 29th."
+title: " MODES attended INFORMS Annual Meeting 2025 at Atlanta, GA, Oct 27th to Oct 29th."
 collection: updates
 date: 2025-10-27
 permalink: /updates/2025-10-xiaotong-MC21
 ---
-And three presentations will be delivered.<br>
+And delivered three presentations.<br>
 ### 1. Economic Analysis of On-Street Parking with Urban Delivery<br>
 **Presenter:** Dr. Xiaotong Sun<br>
 **Session:** MC21 - TSL Best Paper Award and TS Journal Paper of the Year award<br>
 **Time & Location:** Mon, Oct 27, 14:00 - 15:27, GMT-4. Building A Level 4 A407<br>
 ![Image](../images/xiaotong1027.jpg) 
+Dr. Xiaotong Sun, in collaboration with Dr. Zhengtian Xu from The George Washington University, has received the **Transportation Science Paper of the Year Award** for their article published in Transportation Science, titled *“Economic Analysis of On-Street Parking with Urban Delivery”*.
+
 ### 2. Who Benefits from Drone-Enhanced Food Delivery? An Economic Analysis of the Food Delivery Market<br>
 **Presenter:** Chaoyu Wu<br>
 **Session:** WA21 - Advances in Urban and On-Demand Delivery Systems<br>
