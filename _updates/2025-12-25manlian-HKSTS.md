@@ -3,7 +3,7 @@ layout: post
 title: "MODES attended the 29th HKSTS Conference at Hong Kong SAR (8-9 December, 2025)."
 collection: updates
 date: 2025-12-8
-permalink: /updates/2025-12-25manlian-HKSTS.md
+permalink: /updates/2025-12-25manlian-HKSTS
 ---
 And delivered two presentations.<br>
 ### 1. A Deep Reinforcement Learning Framework for Hub-based Truck Platoon Schedule Coordination<br>
