@@ -35,18 +35,19 @@ Data-driven Optimization, Computational Game Theory, Mechanism Design, Transport
 
 ## Teaching
 - UFUG2102 Matrix Algebra and Applications
-- INTR5200 Emerging Mobility Systems Analysis
+- UFUG2103 Linear Algebra
 - INTR5110 Urban Transportation Network Modeling
+- INTR5200 Emerging Mobility Systems Analysis
 - INTR5210 Game-theoretical Methods in Transportation
 
 ## Funded Projects
-- National Natural Science Foundation of China General Project (Principal Investigator)
-- Guangzhou Basic and Applied Basic Research Fund (Principal Investigator)
-- Guangdong Provincial Natural Science Foundation General Project (Participant)
-- Guangzhou Science and Technology Plan Project (Principal Investigator)
-- Guangzhou Basic and Applied Basic Research Fund (Participant)
-- Guangdong Provincial Natural Science Foundation General Project (Participant)
-- Guangzhou Science and Technology Plan Project (Principal Investigator)
-- ...
+- National Natural Science Foundation of China: Young Scientist Project (PI)
+- Department of Science and Technology of Guangdong Province: "1+1+1" Joint Funding Program (PI)
+- Guangzhou Basic and Applied Basic Research Fund (PI)
+- Guangzhou Science and Technology Plan Project (PI)
+- National Natural Science Foundation of China: General Project (co-I)
+- Guangdong Provincial Natural Science Foundation: Key Laboratory Project (co-I)
+- Hong Kong Government Strategic Public Policy Research Funding Scheme (co-I)
+- Guangzhou Basic and Applied Basic Research Fund: Key Laboratory Projects (co-I)
 
 For more details, please check our [Group](/group/) or [Publications](/publications/) pages.
