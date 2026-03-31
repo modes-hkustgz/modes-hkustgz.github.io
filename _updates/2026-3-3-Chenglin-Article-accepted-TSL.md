@@ -1,7 +1,7 @@
 ---
 title: "Chenglin’s paper has been accepted to the TSL Conference 2026. (Acceptance date: March 3, 2026)"
 collection: updates
-date: 2025-03-3
+date: 2026-03-3
 permalink: /updates/2026-3-3-Chenglin-Article-accepted-TSL
 
 ---
