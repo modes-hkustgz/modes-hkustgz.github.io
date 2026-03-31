@@ -5,4 +5,4 @@ date: 2025-03-3
 permalink: /updates/2026-3-3-Chenglin-Article-accepted-TSL
 
 ---
-On March 3, 2026, Chenglin’s paper titled "Benefit Redistribution Mechanisms for Multi-Operator Truck Platooning in Stackelberg-Generalized Nash Game Perspective" has been accepted to the TSL Conference 2026
+On March 3, 2026, Chenglin’s paper titled “Benefit Redistribution Mechanisms for Multi-Operator Truck Platooning in Stackelberg-Generalized Nash Game Perspective” has been accepted to the TSL Conference 2026
