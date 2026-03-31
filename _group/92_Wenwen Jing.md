@@ -9,7 +9,7 @@ bio: "Wenwen graduated from Tongji University (B.Eng. in Civil Engineering, mino
 #photo: "../images/photos/WenwenJing.jpeg"
 status: alumni
 category: visiting_scholar
-first_position: PhD at Beihang University
+first_position: 
 ---
 
 # Wenwen Jing
