@@ -5,7 +5,7 @@ author_profile: true
 collection: group
 role: Ph.D. Student
 research_interests: "Reinforcement Learning, Heuristic Algorithms, Graph Neural Networks"
-bio: "An Xin received her master's degree in Mathematics and Applied Mathematics from Xi'an Jiaotong University in 2025. Her research interests include reinforcement learning and heuristic algorithms."
+bio: "Xin An received her master's degree in Mathematics and Applied Mathematics from Xi'an Jiaotong University in 2025. Her research interests include reinforcement learning and heuristic algorithms."
 photo: "../images/photos/Anxin.jpg"
 status: current
 ---
@@ -14,6 +14,6 @@ status: current
 
 **Role**: Ph.D. Student  
 **Research Interests**: Reinforcement Learning, Heuristic Algorithms, Graph Neural Networks.  
-**Bio**: An Xin received her master's degree in Mathematics and Applied Mathematics from Xi'an Jiaotong University in 2025. Her research interests include reinforcement learning and heuristic algorithms.
+**Bio**: Xin An received her master's degree in Mathematics and Applied Mathematics from Xi'an Jiaotong University in 2025. Her research interests include reinforcement learning and heuristic algorithms.
 
 ![Xin An](../images/photos/Anxin.jpg)
