@@ -8,7 +8,7 @@ research_interests: "Mobility-as-a-Service, Platform economics, Transportation n
 bio: "Manlian received her bachelor’s degree in Construction Management from Sichuan University in 2021. Her research interests include pricing/cost allocation in the context of Mobility-as-a-Service (MaaS) and transportation systems modeling."
 photo: "../images/photos/Manlian3.jpeg"
 status: alumni
-category: Phd
+category: PhD
 first_position: " " 
 ---
 
