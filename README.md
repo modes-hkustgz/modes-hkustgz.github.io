@@ -124,6 +124,7 @@ research_interests: "研究兴趣"
 bio: "简短的个人简介"
 photo: "../images/组员照片.jpg"
 status: current  # 或 'alumni' 用于毕业成员
+category: master 或 PhD # 仅用于校友
 first_position: "毕业后第一职位"  # 仅用于校友
 ---
 ```
