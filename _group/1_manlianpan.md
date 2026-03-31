@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Manlian Pan (2021 Fall)"
-author_profile: true
+author_profile: false
 collection: group
 role: Ph.D. Student
 research_interests: "Mobility-as-a-Service, Platform economics, Transportation network modeling"
