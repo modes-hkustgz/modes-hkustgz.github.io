@@ -7,8 +7,9 @@ role: Research Assistant
 research_interests: "Federated Learning"
 bio: "Ziye graduated from Bejing University of Post and Telecommunications. His research interst includes federated learning and LLM agents."
 photo: "../images/photos/Ziye.png"
-status: current
-#first_position: "Researcher"
+status: alumni
+category: visiting_scholar
+first_position:
 ---
 
 
