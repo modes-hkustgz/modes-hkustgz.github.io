@@ -9,7 +9,7 @@ bio: "Ziye graduated from Bejing University of Post and Telecommunications. His 
 photo: "../images/photos/Ziye.png"
 status: alumni
 category: visiting_scholar
-first_position:
+first_position: Phd at UConn
 ---
 
 
