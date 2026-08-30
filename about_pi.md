@@ -38,8 +38,8 @@ Optimization, Game Theory, Mechanism Design, Data-driven Approaches, Transportat
 - INTR5210 Game-theoretical Methods in Transportation
 
 ## Funded Projects
-- National Natural Science Foundation of China General Project (Principal Investigator)
-- Guangzhou Basic and Applied Basic Research Fund (Principal Investigator)
+- NSFC: General Program,Tuck Platooning under Mixed Traffic on Freight Corridors: Operational Constraints and Intelligent Decision-Making, PI
+- GDST: 1+1+1 Joint Funding Scheme (co-PI)
 - Guangzhou Science and Technology Plan Project (Principal Investigator)
 - Guangdong Provincial Natural Science Foundation General Project (Participant)
 - Guangzhou Basic and Applied Basic Research Fund (Participant)
