@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-Dr. Xiaotong Sun (孙晓通) is an Assistant Professor in the Intelligent Transportation Thrust at the Hong Kong University of Science and Technology (Guangzhou). She also holds a joint appointment with the Innovation, Public Policy, and Entrepreneurship Thrust, and is an affiliated Assistant Professor in the Department of Civil and Environmental Engineering at HKUST.
+Dr. Xiaotong Sun (孙晓通) is an Assistant Professor in the Intelligent Transportation Thrust at the Hong Kong University of Science and Technology (Guangzhou). She also holds a joint appointment with the Innovation, Public Policy, and Entrepreneurship Thrust, and is an affiliate Assistant Professor in the Department of Civil and Environmental Engineering at HKUST.
 
 ## Education
 - Ph.D. in Civil Engineering, University of Michigan, Ann Arbor
@@ -26,19 +26,20 @@ Optimization, Game Theory, Mechanism Design, Data-driven Approaches, Transportat
 - Electric Vehicles
 - UAVs & EVOLs
 
-### Platform-based Mobility and Delivery Services
+### Platform-based Transportation Services
 - Pricing Mechanisms
 - Contract Design
 - Welfare Economics Analysis
 
 ## Teaching
 - UFUG2102 Matrix Algebra and Applications
-- INTR5200 Emerging Mobility Systems Analysis
+- UFUG2103 Linear Algebra
 - INTR5110 Urban Transportation Network Modeling
+- INTR5200 Emerging Mobility Systems Analysis
 - INTR5210 Game-theoretical Methods in Transportation
 
 ## Funded Projects
-- **NSFC: General Program**,Tuck Platooning under Mixed Traffic on Freight Corridors: Operational Constraints and Intelligent Decision-Making, PI.
+- **NSFC: General Program**, Truck Platooning under Mixed Traffic on Freight Corridors: Operational Constraints and Intelligent Decision-Making, PI.
 - **GDST: 1+1+1 Joint Funding Scheme**, From Shared Roads to Shared Benefits: Integrating Physical, Perceptual, and Planning Intelligence for Sustainable Street Transformation, PI.
 - **HKU-Qianhai Institution of Intelligent Tranport (Industry)**, Intelligent Pricing Algorithms for Smart Parking Systems, PI.
 - **HKUST(GZ): LASERi Seed Project 2024**, On the Sustainable and Economic Impact of Low-Altitude Aviation Systems, PI, *completed*.
@@ -52,7 +53,7 @@ Optimization, Game Theory, Mechanism Design, Data-driven Approaches, Transportat
 - **GDST: Guangdong Provincial Key Laboratory Program**, Guangdong Provincial Key Laboratory of Integrated Communication, Sensing and Computation for Ubiquitous Internet of Things, co-I, *completed*.
 - **The Municipal Key Laboratory of Guangzhou**, Guangzhou Seamless Connectivity and Connected Intelligence Municipal Key Laboratory, co-I, *completed*.
 
-For more details, please check our [Group](/group/) or [Publications](/publications/) pages.
+For more details, please check our [Updates](/updates/) or [Publications](/publications/) pages.
 
 {% for post in site.about_pi %}
   {% include archive-single.html %}
